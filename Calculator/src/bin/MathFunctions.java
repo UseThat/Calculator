@@ -26,16 +26,20 @@ public class MathFunctions{
 	}
 	
 	public double Add() {
-		return a+b;
+		
+		return getA()+getB();
 	}
 	
 	public double Subtract() {
+		
 		return a-b;
 	}
 	public double Multiplication() {
+	
 		return a+b;
 	}
 	public double Division() {
+		
 		if(b == 0) {
 			return 0;
 		}else {
